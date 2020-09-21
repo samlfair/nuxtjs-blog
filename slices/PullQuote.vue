@@ -1,5 +1,5 @@
 <template>
-  <div class='post-part single container'>
+  <div class="post-part single container">
     <blockquote class="block-quotation">
       {{ $prismic.asText(slice.primary.quote) }}
     </blockquote>
@@ -8,9 +8,9 @@
 
 <script>
 export default {
-  props: ['slice'],
-  name: 'quote-slice'
-}
+  props: ["slice"],
+  name: "pull_quote"
+};
 </script>
 
 <style lang="sass" scoped>
